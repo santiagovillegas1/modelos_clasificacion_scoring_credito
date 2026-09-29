@@ -43,3 +43,10 @@ Como análisis complementario, se colapsaron las clases Mora y Default en una ú
 - Al reducir el problema a dos clases (Pago cumplido e Impago), los F1 mejoraron sustancialmente frente al problema con tres clases. Esto confirma que buena parte de la dificultad original venía del desbalance y de la fuerte similitud entre Mora y Default —dos grados del mismo fenómeno de incumplimiento—, que los modelos confundían constantemente entre sí. Parte de esta mejora también se explica porque un problema binario es, por su propia naturaleza, más fácil de puntuar que uno de tres clases: no todo el salto refleja una mejora real del modelo.
 - Los resultados sugieren que separar Mora y Default como clases distintas aporta poco valor práctico. Para un banco, la pregunta operativamente relevante suele ser binaria —¿paga o no paga?—, por lo que un enfoque de dos clases resulta más adecuado que intentar sostener una distinción de tres clases que se demostró difícil de separar incluso para el mejor modelo evaluado.
 
+6. Como reproducir
+En el archivo requirements.txt, se encuentran los requisitos de las librerias para el proyecto
+
+7. Autores
+Maria Juliana Quintero Duque
+Maria Jose Salazar Jaramillo
+Santiago Villegas Restrepo
